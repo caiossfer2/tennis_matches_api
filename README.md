@@ -1,8 +1,3 @@
-# Trabalho prático de engenharia de software
-Integrante: Caio Simões da Silva Ferreira
-
-Matrícula: 2020054269
-
 O sistema implementado é uma api de partidas de tênis. Ela possui duas entidades, jogador e partida, que possuem um relacionamento muitos para muitos. A entidade Match tem o atributo id e a entidade Player tem os atributos nome e id. Ambas possuem as operações getAll, getById, update, create e delete. Com essa api, é possível cadastrar partidas jogadas e implementar (no frontend) um ranking de jogadores que mais ganharam partidas e os que mais perderam.
 
 Para a implementação, foi usado o ASP.NET Core (C#) junto com o Entity Framework.
